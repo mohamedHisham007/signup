@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontawsome css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-6 mt-5">
+                <img src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" style="width:85%;">
+            </div>
+            <div class="col-md-6 mt-4 d-flex flex-column align-items-center">
+                    <h1 class=>Create Account</h1>
+                    <p class="text-muted mytext">Go ahead and sign up, let everyone <br>
+                        know how awesome you are!</p>
+
+                <form action="success.html" class="w-75" onsubmit="return validate();">
+                    <h5 id="error"></h5>
+                    <input type="text" name="username" id="name" placeholder="Username" class="form-control pl-5 py-4">
+                    <i class="fa-solid fa-user mo"></i>
+                    <br>
+                    <input type="text" name="email" id="email" placeholder="E-Mail" class="form-control pl-5 py-4">
+                    <i class="fa-solid fa-envelope mo"></i>
+                    <br>
+                    <input type="password" name="password" id="pass" placeholder="Password" class="form-control pl-5 py-4">
+                    <i class="fa-solid fa-lock mo"></i>
+                    <br>
+                    <input type="password" name="confirm-password" id="confirm-pass" placeholder="Confirm Password"
+                        class="form-control pl-5 py-4">
+                        <i class="fa-solid fa-lock mo"></i>
+                        <br>
+                        <input type="submit" value="create new account" class="btn btn-primary w-100">
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</body>
+
+</html>
